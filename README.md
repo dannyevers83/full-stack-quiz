@@ -2,6 +2,10 @@
 
 A small browser quiz about frontend, backend, and database fundamentals. Built while practising JavaScript arrays, objects, functions, events, and DOM updates.
 
+## Live demo
+
+[Play the quiz](https://dannyevers83.github.io/full-stack-quiz/).
+
 ## Features
 
 - Three multiple-choice questions with immediate feedback.
