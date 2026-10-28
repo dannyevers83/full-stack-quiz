@@ -15,6 +15,15 @@ const questions = [
     answers: ["Style buttons", "Stores and retrieves data", "Displays HTML"],
     correctIndex: 1,
   },
+  {
+    text: "What does an API allow the frontend to do?",
+    answers: [
+      "Change the screen’s brightness",
+      "Communicate with the backend",
+      "Install a browser",
+    ],
+    correctIndex: 1,
+  },
 ];
 
 // Page elements
@@ -72,7 +81,7 @@ nextButton.addEventListener("click", () => {
     progressElement.textContent = "";
     questionElement.textContent = "Quiz completed!";
     answersElement.replaceChildren();
-    feedbackElement.textContent = "You answered all three questions correctly.";
+    feedbackElement.textContent = `You answered all ${questions.length} questions correctly.`;
     nextButton.hidden = true;
     restartButton.hidden = false;
     restartButton.focus();
